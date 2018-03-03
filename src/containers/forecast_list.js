@@ -23,6 +23,10 @@ class ForecastList extends Component {
     }
 
     render() {
+        if (this.props.forecasts.length === 0) {
+            return (<div></div>);
+        }
+
         return (
             <table className="table table-hover">
                 <thead>

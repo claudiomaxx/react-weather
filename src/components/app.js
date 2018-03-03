@@ -5,7 +5,6 @@ import ForecastList from '../containers/forecast_list';
 const App = function () {
     return (
         <div>
-            App
             <SearchBar />
             <ForecastList />
         </div>
